@@ -1,18 +1,18 @@
-# StarVill
+# 별마을
 
-Official blog introducing our economy and team SkyBlock server powered by the Minecraft Star Technology modpack.
+마인크래프트 Star Technology 모드팩 기반의 공장 & 경제 팀 스카이블록 서버를 소개하는 공식 블로그입니다.
 
-## About
+## 소개
 
-StarVill is a blog site showcasing a team-based, economy-driven Minecraft SkyBlock server centered on the Star Technology modpack.
+별마을은 Star Technology 모드팩을 중심으로 한 팀 기반의 공장 자동화 및 경제 중심 마인크래프트 스카이블록 서버를 소개하는 블로그 사이트입니다.
 
-## Features
+## 주요 시스템
 
-- Economy-focused gameplay
-- Team-based challenges
-- Star Technology modpack integration
-- SkyBlock innovation
+- 공장 자동화 시스템
+- 경제 중심 게임플레이
+- 팀 기반 협력
+- Star Technology 모드팩 활용
 
-## Viewing the Blog
+## 블로그 보기
 
-Open `index.html` in your web browser to view the blog site.
+웹 브라우저에서 `index.html` 파일을 열어 블로그 사이트를 확인할 수 있습니다.
