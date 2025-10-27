@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="별마을 서버 사전 예약 - 런칭 소식을 가장 먼저 받아보세요">
+    <title>사전 예약 - 별마을</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>별마을</h1>
+            <p class="tagline">사전 예약</p>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <div class="container">
+            <ul class="nav-tabs">
+                <li><a href="about.html" class="nav-link">서버 소개</a></li>
+                <li><a href="modInfo.html" class="nav-link">모드 정보</a></li>
+                <li><a href="../index.html" class="nav-link">일정</a></li>
+                <li><a href="rules.html" class="nav-link">규칙</a></li>
+                <li><a href="#" class="nav-link active">사전 예약</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <article class="blog-post">
+            <h2>🎟️ 별마을 서버 사전 예약</h2>
+            <p class="post-meta">런칭 소식을 가장 먼저 받아보세요!</p>
+            
+            <div class="post-content">
+                <div class="reservation-banner">
+                    <h3>🚀 11월 1일 정식 런칭!</h3>
+                    <p><strong>⏰ 사전 예약 마감: 10월 31일 24시</strong></p>
+                    <p>화이트리스트 제도로 운영되는 별마을 서버에 참여하세요!</p>
+                </div>
+
+                <h3>🔐 화이트리스트 시스템</h3>
+                <div class="whitelist-info">
+                    <p><strong>별마을 서버는 화이트리스트 제도로 운영됩니다.</strong></p>
+                    <p>베타 테스터 및 사전 등록자는 서버 런칭과 함께 <strong>자동으로 화이트리스트에 등록</strong>됩니다.</p>
+                </div>
+
+                <h3>사전 예약 혜택</h3>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🎁</div>
+                        <h4>런칭 기념 선물</h4>
+                        <p>사전 예약자 전용 시작 키트 지급</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">⚡</div>
+                        <h4>얼리 액세스</h4>
+                        <p>정식 런칭 전 베타 테스트 참여 기회</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">�</div>
+                        <h4>화이트리스트 등록</h4>
+                        <p>서버 런칭 시 자동 화이트리스트 등록</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">📢</div>
+                        <h4>우선 공지</h4>
+                        <p>서버 업데이트 및 이벤트 정보 우선 전달</p>
+                    </div>
+                </div>
+
+                <h3>👥 팀 초대 시스템</h3>
+                <div class="team-invite-info">
+                    <p><strong>화이트리스트 등록자 특권:</strong></p>
+                    <ul>
+                        <li>상당량의 게임내 재화를 소모하여 다른 유저를 자신의 팀에 초대 가능</li>
+                        <li>초대받은 유저는 자동으로 화이트리스트에 추가됨</li>
+                        <li>팀 구성을 통한 협력적 게임플레이 지원</li>
+                    </ul>
+                </div>
+
+                <h3>예약 방법</h3>
+                <div class="reservation-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>디스코드 참여</h4>
+                            <p>별마을 공식 디스코드 서버에 참여하세요</p>
+                            <a href="https://discord.gg/9kRQYnBNnW" class="discord-btn" target="_blank">디스코드 참여하기</a>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>예약 신청</h4>
+                            <p>디스코드 #사전예약 채널에서 신청 양식을 작성하세요</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>확인 완료</h4>
+                            <p>예약 완료 메시지를 받고 런칭을 기다리세요</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>📋 예약 신청 양식</h3>
+                <p>아래 양식을 복사하여 디스코드 #사전예약 채널에 작성해주세요:</p>
+                
+                <div class="form-template">
+                    <div class="template-header">
+                        <h4>🎟️ 별마을 서버 사전예약 신청서</h4>
+                        <button class="copy-btn" onclick="copyToClipboard()">📋 복사하기</button>
+                    </div>
+                    <div class="template-content" id="templateText">
+**🎟️ 별마을 서버 사전예약 신청**
+
+**마인크래프트 ID:** 
+**디스코드 ID:** 
+
+**마인크래프트 경험:** (해당하는 것 선택)
+- [ ] 초보자 (1년 미만)
+- [ ] 중급자 (1-3년) 
+- [ ] 고급자 (3년 이상)
+- [ ] 전문가 (모드팩 경험 다수)
+
+**관심 분야:** (해당하는 것 모두 선택)
+- [ ] 공장 자동화
+- [ ] 경제 활동
+- [ ] 팀 협력
+- [ ] 건축
+
+**지원 동기:** (선택사항)
+
+
+**서버 규칙 동의:** 
+- [x] 서버 규칙을 준수하고 건전한 게임 문화 조성에 동참하겠습니다
+                    </div>
+                </div>
+
+                <div class="form-instructions">
+                    <h4>📝 작성 방법</h4>
+                    <ol>
+                        <li><strong>복사하기 버튼</strong>을 클릭하여 양식을 복사</li>
+                        <li><strong>디스코드 #사전예약 채널</strong>에 붙여넣기</li>
+                        <li>각 항목에 맞게 <strong>정보 입력 및 체크박스 선택</strong></li>
+                        <li>완성된 신청서 <strong>전송</strong></li>
+                    </ol>
+                </div>
+
+                <h3>자주 묻는 질문</h3>
+                <div class="faq-section">
+                    <div class="faq-item">
+                        <h4>Q: 화이트리스트가 뭔가요?</h4>
+                        <p>A: 화이트리스트는 승인된 플레이어만 서버에 접속할 수 있는 시스템입니다. 안정적이고 건전한 커뮤니티 환경을 위해 도입했습니다.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Q: 사전 예약 없이도 서버에 참여할 수 있나요?</h4>
+                        <p>A: 화이트리스트 등록자의 초대를 받거나, 추후 별도 신청 절차를 통해 참여 가능합니다. 사전 예약이 가장 확실한 방법입니다.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Q: 팀 초대 비용은 얼마나 드나요?</h4>
+                        <p>A: 게임 진행에 따라 결정되며, 상당량의 재화가 필요합니다. 신중하게 팀원을 선택하는 것이 좋습니다.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Q: 사전 예약 마감일은 언제인가요?</h4>
+                        <p>A: 10월 31일 24시까지입니다. 마감 이후에는 화이트리스트 등록자의 초대를 통해서만 참여 가능합니다.</p>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <h3>문의사항</h3>
+                    <p>사전 예약과 관련된 문의사항이 있으시면 디스코드 #일반채팅 채널이나 스텝에게 직접 메시지를 보내주세요.</p>
+                    <div class="contact-links">
+                        <a href="https://discord.gg/9kRQYnBNnW" class="contact-btn discord" target="_blank">디스코드 서버</a>
+                        <a href="mailto:admin@starvill.com" class="contact-btn email">이메일 문의</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 StarVill. 마인크래프트 Star Technology 모드팩 기반의 경제 및 팀 스카이블록 서버를 소개하는 공식 블로그입니다.</p>
+        </div>
+    </footer>
+
+    <script>
+        function copyToClipboard() {
+            const templateText = document.getElementById('templateText').innerText;
+            
+            if (navigator.clipboard && window.isSecureContext) {
+                // 모던 브라우저용 Clipboard API
+                navigator.clipboard.writeText(templateText).then(() => {
+                    showCopySuccess();
+                }).catch(err => {
+                    console.error('복사 실패:', err);
+                    fallbackCopy(templateText);
+                });
+            } else {
+                // 구형 브라우저 호환성
+                fallbackCopy(templateText);
+            }
+        }
+
+        function fallbackCopy(text) {
+            const textArea = document.createElement('textarea');
+            textArea.value = text;
+            textArea.style.position = 'fixed';
+            textArea.style.left = '-999999px';
+            textArea.style.top = '-999999px';
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+            
+            try {
+                document.execCommand('copy');
+                showCopySuccess();
+            } catch (err) {
+                console.error('복사 실패:', err);
+                alert('복사에 실패했습니다. 텍스트를 직접 선택해서 복사해주세요.');
+            } finally {
+                document.body.removeChild(textArea);
+            }
+        }
+
+        function showCopySuccess() {
+            const copyBtn = document.querySelector('.copy-btn');
+            const originalText = copyBtn.innerHTML;
+            
+            copyBtn.innerHTML = '✅ 복사완료!';
+            copyBtn.style.background = 'rgba(40, 167, 69, 0.8)';
+            
+            setTimeout(() => {
+                copyBtn.innerHTML = originalText;
+                copyBtn.style.background = 'rgba(255, 255, 255, 0.2)';
+            }, 2000);
+        }
+    </script>
+</body>
+</html>
